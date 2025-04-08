@@ -2,9 +2,8 @@ name: Reentrenamiento Automático
 
 on:
   push:
-    branches:
-      - main
-  workflow_dispatch:  # ✅ Permite ejecutar manualmente desde la pestaña Actions
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
   retrain-model:
