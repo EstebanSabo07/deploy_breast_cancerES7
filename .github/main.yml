@@ -2,8 +2,8 @@ name: Reentrenamiento Automático
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   retrain-model:
